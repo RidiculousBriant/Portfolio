@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Briant | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Tostify -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Swiftyslider -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body
+    data-theme="dark"
+    data-bs-spy="scroll"
+    data-bs-target="#navbarNav"
+    data-bs-offset="100"
+    tabindex="0"
+  >
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light px-5 fixed-top py-3"
+    >
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div
+          class="collapse navbar-collapse justify-content-start"
+          id="navbarNav"
+        >
+          <!-- Mobile Header -->
+          <div
+            class="d-lg-none w-100 d-flex justify-content-between align-items-center mb-4"
+          >
+            <span class="fs-4 fw-bold text-light light-mode-menu-title"
+              >Menu</span
+            >
+            <button
+              class="btn btn-close"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <!-- Nav Links -->
+          <ul class="navbar-nav justify-content-end w-100">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">
+                <i class="bi bi-house-door"></i> Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">
+                <i class="bi bi-sliders"></i> Skills
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">
+                <i class="bi bi-buildings"></i> Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificates">
+                <i class="bi bi-award"></i> Certificates
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">
+                <i class="bi bi-chat-square-text"></i> Contact
+              </a>
+            </li>
+          </ul>
+
+          <!-- Theme toggle -->
+          <button class="theme__icon toggle-theme">
+            <span></span>
+            <!-- Circle (Sun/Moon core) -->
+            <span>
+              <span></span><span></span><span></span><span></span>
+              <!-- Sun rays -->
+            </span>
+            <span></span>
+            <!-- Extra dot / unused -->
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <div
+      class="container-fluid px-0 px-lg-5 pb-5 d-flex justify-content-center align-items-center flex-column parent-container"
+    >
+      <div
+        class="container d-flex align-items-center justify-content-center main-section px-3 px-lg-5"
+        id="home"
+      >
+        <div class="title-group">
+          <h1 class="display-2 gradient-text fw-bold m-0" id="typewriter">
+            Hello, there! I am, Briant Polvorosa
+          </h1>
+          <h2 class="display-4">Glad to be your developer!</h2>
+          <p class="lead">
+            I craft responsive websites and web apps with clean code, great
+            design, and a focus on user experience.
+          </p>
+          <div class="socials-group fs-5 mt-4">
+            <a
+              href="https://www.facebook.com/hesxtiagorg"
+              class="badge bg-primary text-decoration-none p-2"
+              target="_blank"
+            >
+              <i class="bi bi-facebook"></i>
+              Facebook
+            </a>
+            <a
+              href="https://www.instagram.com/grey_mys/"
+              class="badge bg-danger text-decoration-none p-2"
+              target="_blank"
+            >
+              <i class="bi bi-instagram"></i>
+              Instagram
+            </a>
+            <a
+              href="https://github.com/RidiculousBriant"
+              class="badge bg-dark text-decoration-none p-2"
+              target="_blank"
+              style="background-color: #0d1117"
+            >
+              <i class="bi bi-github"></i>
+              Github
+            </a>
+            <a
+              href="https://x.com/Kurapikassob"
+              class="badge text-decoration-none p-2"
+              target="_blank"
+              style="background-color: #15202b"
+            >
+              <i class="bi bi-twitter-x"></i>
+              Twitter
+            </a>
+            <a
+              href="https://discord.com/invite/KJNq44nA"
+              class="badge text-decoration-none p-2"
+              target="_blank"
+              style="background-color: #2b2d31"
+            >
+              <i class="bi bi-discord"></i>
+              Discord
+            </a>
+          </div>
+        </div>
+        <div class="profile-wrapper">
+          <!-- Multiple Blobs with Different Colors -->
+          <div class="profile-blob blob1"></div>
+          <div class="profile-blob blob2"></div>
+          <div class="profile-blob blob3"></div>
+
+          <!-- Profile Image -->
+          <img
+            src="img/gg-removebg-preview.png"
+            alt="Briant Polvorosa"
+            class="profile-img"
+          />
+        </div>
+      </div>
+      <!--End of Front Page-->
+      <div
+        class="container d-flex align-items-stretch justify-content-center gap-4 musics-container px-5 px-lg-0"
+      >
+        <!-- From Uiverse.io by Praashoo7 -->
+        <div class="main">
+          <div class="currentplaying">
+            <svg
+              height="50px"
+              width="50px"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
+              class="spotify"
+            >
+              <radialGradient
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(0 -534)"
+                r="43.888"
+                cy="572.064"
+                cx="33.34"
+                id="ipdIa4~cOclR8yt_ClW93a"
+              >
+                <stop stop-color="#f4e9c3" offset="0"></stop>
+                <stop stop-color="#f8eecd" offset=".219"></stop>
+                <stop stop-color="#fdf4dc" offset=".644"></stop>
+                <stop stop-color="#fff6e1" offset="1"></stop>
+              </radialGradient>
+              <path
+                d="M51.03,37.34c0.16,0.98,1.08,1.66,2.08,1.66h5.39c2.63,0,4.75,2.28,4.48,4.96	C62.74,46.3,60.64,48,58.29,48H49c-1.22,0-2.18,1.08-1.97,2.34c0.16,0.98,1.08,1.66,2.08,1.66h8.39c1.24,0,2.37,0.5,3.18,1.32	C61.5,54.13,62,55.26,62,56.5c0,2.49-2.01,4.5-4.5,4.5h-49c-1.52,0-2.9-0.62-3.89-1.61C3.62,58.4,3,57.02,3,55.5	C3,52.46,5.46,50,8.5,50H14c1.22,0,2.18-1.08,1.97-2.34C15.81,46.68,14.89,44,13.89,44H5.5c-2.63,0-4.75-2.28-4.48-4.96	C1.26,36.7,3.36,35,5.71,35H8c1.71,0,3.09-1.43,3-3.16C10.91,30.22,9.45,29,7.83,29H4.5c-2.63,0-4.75-2.28-4.48-4.96	C0.26,21.7,2.37,20,4.71,20H20c0.83,0,1.58-0.34,2.12-0.88C22.66,18.58,23,17.83,23,17c0-1.66-1.34-3-3-3h-1.18	c-0.62-0.09-1.43,0-2.32,0h-9c-1.52,0-2.9-0.62-3.89-1.61S2,10.02,2,8.5C2,5.46,4.46,3,7.5,3h49c3.21,0,5.8,2.79,5.47,6.06	C61.68,11.92,60.11,14,57.24,14H52c-2.76,0-5,2.24-5,5c0,1.38,0.56,2.63,1.46,3.54C49.37,23.44,50.62,24,52,24h6.5	c3.21,0,5.8,2.79,5.47,6.06C63.68,32.92,61.11,35,58.24,35H53C51.78,35,50.82,36.08,51.03,37.34z"
+                fill="url(#ipdIa4~cOclR8yt_ClW93a)"
+              ></path>
+              <linearGradient
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(0 -534)"
+                y2="590.253"
+                y1="530.096"
+                x2="32"
+                x1="32"
+                id="ipdIa4~cOclR8yt_ClW93b"
+              >
+                <stop stop-color="#42d778" offset="0"></stop>
+                <stop stop-color="#3dca76" offset=".428"></stop>
+                <stop stop-color="#34b171" offset="1"></stop>
+              </linearGradient>
+              <path
+                d="M57,32c0,12.837-9.663,23.404-22.115,24.837C33.942,56.942,32.971,57,32,57	c-1.644,0-3.25-0.163-4.808-0.471C15.683,54.298,7,44.163,7,32C7,18.192,18.192,7,32,7S57,18.192,57,32z"
+                fill="url(#ipdIa4~cOclR8yt_ClW93b)"
+              ></path>
+              <path
+                d="M41.683,44.394c-0.365,0-0.731-0.181-1.096-0.365c-3.471-2.009-7.674-3.105-12.24-3.105	c-2.559,0-5.116,0.364-7.491,0.912c-0.365,0-0.914,0.183-1.096,0.183c-0.914,0-1.461-0.732-1.461-1.462	c0-0.913,0.547-1.463,1.279-1.643c2.923-0.732,5.846-1.096,8.951-1.096c5.116,0,9.866,1.276,13.885,3.655	c0.548,0.364,0.914,0.73,0.914,1.642C43.145,43.847,42.414,44.394,41.683,44.394z M44.241,38.181c-0.547,0-0.912-0.18-1.279-0.364	c-3.835-2.375-9.135-3.839-15.163-3.839c-2.924,0-5.664,0.366-7.674,0.916c-0.549,0.18-0.731,0.18-1.096,0.18	c-1.096,0-1.827-0.912-1.827-1.826c0-1.096,0.549-1.645,1.461-2.009c2.74-0.73,5.481-1.279,9.317-1.279	c6.213,0,12.241,1.463,16.991,4.384c0.73,0.364,1.096,1.096,1.096,1.826C46.069,37.269,45.337,38.181,44.241,38.181z M47.165,30.876	c-0.548,0-0.731-0.182-1.279-0.364c-4.385-2.559-10.961-4.021-17.356-4.021c-3.289,0-6.577,0.366-9.5,1.096	c-0.366,0-0.731,0.182-1.279,0.182c-1.279,0.183-2.193-0.912-2.193-2.192c0-1.279,0.731-2.009,1.644-2.192	c3.471-1.096,7.125-1.462,11.327-1.462c6.943,0,14.25,1.462,19.731,4.567c0.73,0.366,1.278,1.096,1.278,2.193	C49.357,29.961,48.442,30.876,47.165,30.876z"
+                fill="#fff"
+              ></path>
+            </svg>
+            <p class="heading">Currently Playing</p>
+          </div>
+          <!--Music Group-->
+          <div class="music-group">
+            <!-- Song 1 -->
+            <div class="loader" onclick="playSong(0)">
+              <div class="song">
+                <p class="name m-0">Janice</p>
+                <p class="artist">Dilaw</p>
+              </div>
+              <div class="albumcover overflow-hidden">
+                <img
+                  src="musics/img/Janice.jpeg"
+                  alt="Janice"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="loading" id="loaderAnim0">
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+              </div>
+              <audio
+                id="audio0"
+                src="musics/Dilaw - Janice (Official Lyric Video).mp3"
+              ></audio>
+            </div>
+
+            <!-- Song 2 -->
+            <div class="loader" onclick="playSong(1)">
+              <div class="song">
+                <p class="name m-0">Creep</p>
+                <p class="artist">Radiohead</p>
+              </div>
+              <div class="albumcover overflow-hidden">
+                <img
+                  src="musics/img/Creep.jpeg"
+                  alt="Janice"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="loading" id="loaderAnim1">
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+              </div>
+              <audio id="audio1" src="musics/Radiohead - Creep.mp3"></audio>
+            </div>
+
+            <!-- Song 3 -->
+            <div class="loader" onclick="playSong(2)">
+              <div class="song">
+                <p class="name m-0">Tayong Dalawa</p>
+                <p class="artist">Rey Valera</p>
+              </div>
+              <div class="albumcover overflow-hidden">
+                <img
+                  src="musics/img/Tayong Dalawa.jpeg"
+                  alt="Janice"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="loading" id="loaderAnim2">
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+              </div>
+              <audio id="audio2" src="musics/Tayong Dalawa.mp3"></audio>
+            </div>
+
+            <!-- Song 4 -->
+            <div class="loader" onclick="playSong(3)">
+              <div class="song">
+                <p class="name m-0">Aubrey</p>
+                <p class="artist">Bread</p>
+              </div>
+              <div class="albumcover overflow-hidden">
+                <img
+                  src="musics/img/Aubrey.jpeg"
+                  alt="Janice"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="loading" id="loaderAnim3">
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+              </div>
+              <audio id="audio3" src="musics/Aubrey.mp3"></audio>
+            </div>
+
+            <!-- Song 5 -->
+            <div class="loader" onclick="playSong(4)">
+              <div class="song">
+                <p class="name m-0">Piano Man</p>
+                <p class="artist">Billy Joel</p>
+              </div>
+              <div class="albumcover overflow-hidden">
+                <img
+                  src="musics/img/Piano man.jpeg"
+                  alt="Janice"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="loading" id="loaderAnim4">
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+                <div class="load"></div>
+              </div>
+              <audio
+                id="audio4"
+                src="musics/Billy Joel - Piano Man (Lyrics).mp3"
+              ></audio>
+            </div>
+          </div>
+          <!--End of Musics Group-->
+        </div>
+        <!--End of Music Board-->
+        <!-- From Uiverse.io by Yaya12085 -->
+        <div class="plan">
+          <div class="inner">
+            <span class="pricing bg-primary text-light">
+              <span> ₱100 <small class="text-light">/ Project</small> </span>
+            </span>
+            <p class="title">Freelancing</p>
+            <p class="info" style="text-align: justify">
+              This plan is for students, or small teams looking for a
+              budget-friendly way to get started.
+            </p>
+            <ul class="features">
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>Debugging</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>Web Development</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>School Projects</span>
+              </li>
+            </ul>
+            <div class="action">
+              <a class="button" href="#contact"> Message me </a>
+            </div>
+          </div>
+        </div>
+        <!--End of Subscription-->
+        <div class="plan">
+          <div class="inner">
+            <span class="pricing bg-danger text-light">
+              <span> Background</span>
+            </span>
+            <p class="title">Resume</p>
+            <p class="info" style="text-align: justify">
+              Passionate developer experienced in building responsive websites
+              and dynamic web applications.
+            </p>
+            <ul class="features">
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>BSIT Student</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>Data Management</span>
+              </li>
+              <li>
+                <span class="icon">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      fill="currentColor"
+                      d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z"
+                    ></path>
+                  </svg>
+                </span>
+                <span>Web Development</span>
+              </li>
+            </ul>
+            <div class="action">
+              <a
+                class="button"
+                download
+                href="resume/POLVOROSA-RESUME_page-0001.jpg"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--End of Resume-->
+      </div>
+      <!--End of Board-->
+      <div
+        class="container d-flex justify-content-center align-items-center px-0 px-lg-5"
+      >
+        <section id="about">
+          <div class="container px-5 px-lg-5 aboutMeContainer">
+            <h2 class="mb-4 fw-bold">About Me</h2>
+            <p class="lead">
+              Hi! I'm <strong>Briant Polvorosa</strong>, a passionate and
+              dedicated web developer who loves turning ideas into interactive,
+              user-friendly websites. With experience in HTML, CSS, JavaScript,
+              PHP, and MySQL, I specialize in building dynamic and responsive
+              web applications.
+            </p>
+            <p class="lead">
+              Whether I'm developing an e-commerce platform, crafting a personal
+              portfolio, or experimenting with new frameworks, I always aim for
+              clean code, intuitive UX, and efficient performance. I'm also
+              constantly learning and exploring new technologies to grow as a
+              developer.
+            </p>
+            <p class="lead">
+              Beyond coding, I enjoy gaming, watching movies, and playing
+              basketball. I'm always open to new opportunities, collaborations,
+              or simply connecting with like-minded creators!
+            </p>
+          </div>
+        </section>
+      </div>
+      <!--End of About Developer-->
+      <div class="container px-5 px-lg-5 my-0" id="skills">
+        <div class="mb-4 px-0 px-lg-5">
+          <h2 class="fw-bold">Skills</h2>
+          <p class="lead text-light">
+            Here are some tools and languages I work with:
+          </p>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center px-0 px-lg-5">
+          <!-- HTML -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-filetype-html fs-1 text-danger"></i>
+              <h6 class="mt-3 toggled-skill">HTML</h6>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-filetype-css fs-1 text-primary"></i>
+              <h6 class="mt-3 toggled-skill">CSS</h6>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-filetype-js fs-1 text-warning"></i>
+              <h6 class="mt-3 toggled-skill">JavaScript</h6>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-terminal fs-1 text-info"></i>
+              <h6 class="mt-3 toggled-skill">Python</h6>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-cup-hot fs-1 text-danger"></i>
+              <h6 class="mt-3 toggled-skill">Java</h6>
+            </div>
+          </div>
+
+          <!-- MySQL -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-database fs-1 text-secondary"></i>
+              <h6 class="mt-3 toggled-skill">MySQL</h6>
+            </div>
+          </div>
+
+          <!-- Excel -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-file-earmark-spreadsheet fs-1 text-success"></i>
+              <h6 class="mt-3 toggled-skill">Excel</h6>
+            </div>
+          </div>
+
+          <!-- VS Code -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-code-slash fs-1 text-primary"></i>
+              <h6 class="mt-3 toggled-skill">VS Code</h6>
+            </div>
+          </div>
+
+          <!-- PyCharm -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-laptop fs-1 text-success"></i>
+              <h6 class="mt-3 toggled-skill">PyCharm</h6>
+            </div>
+          </div>
+
+          <!-- Bootstrap -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-bootstrap-fill fs-1 text-purple"></i>
+              <h6 class="mt-3 toggled-skill">Bootstrap</h6>
+            </div>
+          </div>
+
+          <!-- Linux -->
+          <div class="col">
+            <div
+              class="card h-100 border-0 shadow-sm p-3 text-light skill-card"
+            >
+              <i class="bi bi-terminal-dash fs-1 text-warning"></i>
+              <h6 class="mt-3 toggled-skill">Linux</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Skills-->
+      <div class="container px-5 px-lg-5" id="projects">
+        <div class="container px-0 px-lg-5">
+          <h2 class="mb-4 fw-bold">Projects</h2>
+        </div>
+        <!-- Project Container for Grid (desktop) -->
+        <div
+          id="projectCards"
+          class="row d-none d-md-flex justify-content-start px-0 px-lg-5"
+        ></div>
+
+        <!-- Swiffy Slider Container (mobile) -->
+        <div
+          class="swiffy-slider slider-item-reveal d-md-none"
+          id="projectSlider"
+        >
+          <ul class="slider-container" id="sliderItems">
+            <!-- Slider items will be inserted here -->
+          </ul>
+          <button
+            type="button"
+            class="slider-nav"
+            aria-label="Go left"
+          ></button>
+          <button
+            type="button"
+            class="slider-nav slider-nav-next"
+            aria-label="Go right"
+          ></button>
+          <div class="slider-indicators"></div>
+        </div>
+        <div
+          class="container px-lg-5 px-0 d-flex justify-content-center align-items-center mt-4"
+        >
+          <nav aria-label="Project pagination">
+            <ul class="pagination" id="paginationControls">
+              <!-- Pagination buttons will be rendered here -->
+            </ul>
+          </nav>
+        </div>
+        <!-- End of Pagination-->
+      </div>
+      <!-- Project Modal -->
+      <div
+        class="modal fade"
+        id="projectModal"
+        tabindex="-1"
+        aria-labelledby="projectModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-md modal-dialog-centered">
+          <div class="modal-content text-light modal-project">
+            <div class="modal-header text-light">
+              <h5 class="modal-title" id="projectModalLabel">Project Title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <video class="w-100 rounded mb-3" controls id="modalVideo">
+                <source src="" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <p id="modalDescription"></p>
+              <a
+                href="#"
+                target="_blank"
+                class="btn btn-primary float-end mt-2"
+                id="modalLink"
+                >Visit Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Projects-->
+      <div class="container px-5 px-lg-5" id="certificates">
+        <div class="container px-0 px-lg-5">
+          <h2 class="mb-4 fw-bold">Certificates</h2>
+        </div>
+        <!-- Desktop Grid View -->
+        <div
+          id="certificatesContainer"
+          class="row d-none d-md-flex px-0 px-lg-5"
+        >
+          <!-- Certificate Content -->
+        </div>
+
+        <!-- Mobile Swiffy Slider View -->
+        <div
+          class="swiffy-slider slider-item-reveal d-md-none mt-4"
+          id="certificatesSlider"
+        >
+          <ul class="slider-container" id="sliderCertificates"></ul>
+
+          <button
+            type="button"
+            class="slider-nav"
+            aria-label="Go left"
+          ></button>
+          <button
+            type="button"
+            class="slider-nav slider-nav-next"
+            aria-label="Go right"
+          ></button>
+
+          <div class="slider-indicators"></div>
+        </div>
+      </div>
+      <!--End of Certificates-->
+      <!-- Contact Section -->
+      <div class="container justify-content-center px-5" id="contact">
+        <div class="col-12 contact-form px-0 px-lg-5">
+          <div
+            class="card border-0 shadow rounded-4 overflow-hidden"
+            style="
+              background-color: var(--secondary-color);
+              color: var(--text-color);
+            "
+          >
+            <div class="row g-0">
+              <!-- Contact Form -->
+              <div class="col-md-6 p-5">
+                <h4 class="mb-4 text-warning light-mode-contact fw-bold">
+                  Write Me
+                </h4>
+                <form onsubmit="sendMail(event)">
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control bg-transparent text-light border-0 border-bottom"
+                      placeholder="Enter your name"
+                      autocomplete="off"
+                      autocorrect="off"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control bg-transparent text-light border-0 border-bottom"
+                      placeholder="Enter your email"
+                      autocomplete="off"
+                      autocorrect="off"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <textarea
+                      name="message"
+                      class="form-control bg-transparent text-light border-0 border-bottom"
+                      rows="4"
+                      placeholder="Type a message"
+                      required
+                      style="resize: none"
+                      autocomplete="off"
+                      autocorrect="off"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn contact-btn text-light px-4 mt-2 float-end"
+                  >
+                    Send
+                  </button>
+                </form>
+              </div>
+
+              <!-- Contact Info -->
+              <div
+                class="col-md-6 p-5"
+                style="background-color: var(--secondary-color)"
+              >
+                <h4 class="mb-4 text-warning light-mode-contact fw-bold">
+                  Contact Info
+                </h4>
+                <p class="mb-4">
+                  Feel free to message me or reach out through the following:
+                </p>
+
+                <div class="mb-3 d-flex">
+                  <i class="bi bi-geo-alt-fill me-3 fs-5"></i>
+                  <div>
+                    <strong>Address</strong><br />
+                    Kaunlaran Village, Apahap St., Navotas City
+                  </div>
+                </div>
+
+                <div class="mb-3 d-flex">
+                  <i class="bi bi-telephone-fill me-3 fs-5"></i>
+                  <div>
+                    <strong>Phone</strong><br />
+                    +639-567-594-780
+                  </div>
+                </div>
+
+                <div class="mb-3 d-flex">
+                  <i class="bi bi-envelope-fill me-3 fs-5"></i>
+                  <div>
+                    <strong>Email</strong><br />
+                    rurusocute10@gmail.com
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--End of Contact Form-->
+    </div>
+    <!--End of Main Container-->
+    <!-- Mini Player -->
+    <div
+      id="miniPlayer"
+      class="mini-player d-none position-fixed bottom-0 end-0 m-3 bg-white shadow p-3 rounded"
+      style="width: 300px; z-index: 9999"
+    >
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <strong id="miniTitle">Now Playing</strong>
+          <div class="d-flex p-0 m-0 d-flex align-items-center gap-1">
+            <p class="m-0" style="font-size: 0.9em">By:</p>
+            <p class="m-0" id="miniArtist" style="font-size: 0.9em"></p>
+          </div>
+        </div>
+        <div>
+          <button
+            class="btn btn-sm btn-light"
+            id="musicPause"
+            onclick="togglePlayPause()"
+          >
+            <i class="bi bi-pause"></i>
+          </button>
+          <button class="btn btn-sm btn-light" onclick="playNext()">
+            <i class="bi bi-skip-forward"></i>
+          </button>
+          <button class="btn btn-sm btn-danger" onclick="closeMiniPlayer()">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+      </div>
+      <input type="range" id="seekBar" class="form-range mt-2" value="0" />
+      <div class="d-flex justify-content-between mb-2">
+        <small id="currentTime">0:00</small>
+        <small id="duration">0:00</small>
+      </div>
+      <div
+        class="d-flex m-0 p-0 justify-content-between align-items-center gap-3"
+      >
+        <label for="volumeBar" class="form-label">Volume</label>
+        <input
+          type="range"
+          id="volumeBar"
+          class="form-range"
+          min="0"
+          max="1"
+          step="0.01"
+          value="1"
+          class="text-danger"
+        />
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script>
+      (function () {
+        emailjs.init("no2Bthc8F0jen_uew");
+      })();
+
+      function sendMail(event) {
+        event.preventDefault();
+
+        const nameField = document.querySelector("[name='name']");
+        const emailField = document.querySelector("[name='email']");
+        const messageField = document.querySelector("[name='message']");
+
+        const name = nameField.value;
+        const email = emailField.value;
+        const message = messageField.value;
+
+        emailjs
+          .send("service_w76setv", "template_sm0wk3k", {
+            name: name,
+            email: email,
+            message: message,
+          })
+          .then(function () {
+            // ✅ Show Toastify success
+            Toastify({
+              text: "Email sent successfully!",
+              duration: 3000,
+              gravity: "top",
+              position: "right",
+              backgroundColor: "green",
+            }).showToast();
+            nameField.value = "";
+            emailField.value = "";
+            messageField.value = "";
+          })
+          .catch(function (error) {
+            Toastify({
+              text: "Failed to send email. Please try again.",
+              duration: 4000,
+              gravity: "top",
+              position: "right",
+              backgroundColor: "#dc3545",
+            }).showToast();
+
+            console.error("EmailJS Error:", error);
+          });
+      }
+    </script>
+  </body>
+</html>
